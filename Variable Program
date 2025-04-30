@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int A, B, C;
+     printf("Enter the value of A: ");
+     scanf("%d", & A);
+
+     printf("Enter the value of B: ");
+     scanf("%d", & B);
+
+     A = A+B; 
+     B = A-B; 
+     A = A-B; 
+
+
+     printf("\n The value of A: %d", A);
+     printf("\n The value of B : %d", B);
+     return 0;
+}
