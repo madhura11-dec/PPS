@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int BS, DA, HR, GS;
+    printf("Enter BS: ");
+    scanf("%f",& BS);
+    DA = 0.4 * BS;
+    HR = 0.2 * BS;
+    GS = BS + DA + HR;
+    printf("\n BS: %.2f", BS);
+    scanf ("%d", BS);
+    printf("\n DA: %.2f", DA);
+    scanf ("%d", DA);
+    printf("\n HR: %.2f", HR);
+    scanf ("%d", HR);
+    printf("\n\n GS: %.2f", GS);
+    scanf ("%d", GS);
+    return (0);
+}
