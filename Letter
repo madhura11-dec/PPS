@@ -1,6 +1,11 @@
 #include <stdio.h>
+
 int main()
 {
-    printf ("Respect Sir,/n/t I want leave for 2 days./t I am not feeling well./t Yours Sincerely/n/t Madhura Ganekar");
+    printf("Respect Sir,\n");
+    printf("I want leave for 2 days.\n");
+    printf("I am not feeling well.\n");
+    printf("Yours Sincerely,\n\tMadhura Ganekar\n");
+
     return 0;
 }
